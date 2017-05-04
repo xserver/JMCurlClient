@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MetCurlClient'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of MetCurlClient.'
   s.description      = 'Nothing'
   s.homepage         = 'https://github.com/xserver/MetCurlClient'
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 
   s.source       = { :git => "https://github.com/xserver/JMCurlClient.git"}
-  s.source_files = 'MetCurlClient/Classes/**/*'
-  # s.source_files = 'Classes/*'
+  s.source_files = 'MetCurlClient/Classes/*'
+
   
   # s.resource_bundles = {
   #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']

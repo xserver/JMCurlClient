@@ -7,24 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59BE6AC0DB19E3CD28B240FB /* libPods-JMCurlClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03830B0EE898E68C63BE6EE4 /* libPods-JMCurlClient.a */; };
 		6C9C88831EBB4A2C00D1DF71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C88821EBB4A2C00D1DF71 /* main.m */; };
 		6C9C88861EBB4A2C00D1DF71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C88851EBB4A2C00D1DF71 /* AppDelegate.m */; };
 		6C9C88891EBB4A2C00D1DF71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C88881EBB4A2C00D1DF71 /* ViewController.m */; };
 		6C9C888C1EBB4A2C00D1DF71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C888A1EBB4A2C00D1DF71 /* Main.storyboard */; };
 		6C9C888E1EBB4A2C00D1DF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C888D1EBB4A2C00D1DF71 /* Assets.xcassets */; };
 		6C9C88911EBB4A2C00D1DF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C888F1EBB4A2C00D1DF71 /* LaunchScreen.storyboard */; };
-		6C9C88B01EBB4A8A00D1DF71 /* curlbuild.h.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C88A11EBB4A8A00D1DF71 /* curlbuild.h.cmake */; };
-		6C9C88B11EBB4A8A00D1DF71 /* curlbuild.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C88A21EBB4A8A00D1DF71 /* curlbuild.h.in */; };
-		6C9C88B21EBB4A8A00D1DF71 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C88A61EBB4A8A00D1DF71 /* Makefile */; };
-		6C9C88B31EBB4A8A00D1DF71 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C88A71EBB4A8A00D1DF71 /* Makefile.am */; };
-		6C9C88B41EBB4A8A00D1DF71 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C88A81EBB4A8A00D1DF71 /* Makefile.in */; };
-		6C9C88B51EBB4A8A00D1DF71 /* stamp-h2 in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C88AB1EBB4A8A00D1DF71 /* stamp-h2 */; };
 		6C9C88B61EBB4A8A00D1DF71 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9C88AF1EBB4A8A00D1DF71 /* libcurl.a */; };
 		6C9C88BB1EBB4A9300D1DF71 /* JMCurlClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C88B81EBB4A9300D1DF71 /* JMCurlClient.mm */; };
 		6C9C88BC1EBB4A9300D1DF71 /* JMCppCurlClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C88BA1EBB4A9300D1DF71 /* JMCppCurlClient.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03830B0EE898E68C63BE6EE4 /* libPods-JMCurlClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JMCurlClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9C887E1EBB4A2C00D1DF71 /* JMCurlClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMCurlClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9C88821EBB4A2C00D1DF71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C9C88841EBB4A2C00D1DF71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,17 +33,11 @@
 		6C9C88921EBB4A2C00D1DF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C9C889F1EBB4A8A00D1DF71 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
 		6C9C88A01EBB4A8A00D1DF71 /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
-		6C9C88A11EBB4A8A00D1DF71 /* curlbuild.h.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.cmake; sourceTree = "<group>"; };
-		6C9C88A21EBB4A8A00D1DF71 /* curlbuild.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.in; sourceTree = "<group>"; };
 		6C9C88A31EBB4A8A00D1DF71 /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
 		6C9C88A41EBB4A8A00D1DF71 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
 		6C9C88A51EBB4A8A00D1DF71 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
-		6C9C88A61EBB4A8A00D1DF71 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		6C9C88A71EBB4A8A00D1DF71 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		6C9C88A81EBB4A8A00D1DF71 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		6C9C88A91EBB4A8A00D1DF71 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
 		6C9C88AA1EBB4A8A00D1DF71 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
-		6C9C88AB1EBB4A8A00D1DF71 /* stamp-h2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "stamp-h2"; sourceTree = "<group>"; };
 		6C9C88AC1EBB4A8A00D1DF71 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
 		6C9C88AD1EBB4A8A00D1DF71 /* system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
 		6C9C88AE1EBB4A8A00D1DF71 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
@@ -56,6 +46,8 @@
 		6C9C88B81EBB4A9300D1DF71 /* JMCurlClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JMCurlClient.mm; sourceTree = "<group>"; };
 		6C9C88B91EBB4A9300D1DF71 /* JMCppCurlClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JMCppCurlClient.hpp; sourceTree = "<group>"; };
 		6C9C88BA1EBB4A9300D1DF71 /* JMCppCurlClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JMCppCurlClient.cpp; sourceTree = "<group>"; };
+		977DEFDCE058028DBEE52AA6 /* Pods-JMCurlClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMCurlClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMCurlClient/Pods-JMCurlClient.release.xcconfig"; sourceTree = "<group>"; };
+		F99F352A26171ED3E6EAB9C7 /* Pods-JMCurlClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMCurlClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMCurlClient/Pods-JMCurlClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,17 +56,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C9C88B61EBB4A8A00D1DF71 /* libcurl.a in Frameworks */,
+				59BE6AC0DB19E3CD28B240FB /* libPods-JMCurlClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44EFE3490B68F224D63342F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03830B0EE898E68C63BE6EE4 /* libPods-JMCurlClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6C9C88751EBB4A2C00D1DF71 = {
 			isa = PBXGroup;
 			children = (
 				6C9C88801EBB4A2C00D1DF71 /* JMCurlClient */,
 				6C9C887F1EBB4A2C00D1DF71 /* Products */,
+				6FB43CF227384F5FD2081C27 /* Pods */,
+				44EFE3490B68F224D63342F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,22 +132,25 @@
 			children = (
 				6C9C889F1EBB4A8A00D1DF71 /* curl.h */,
 				6C9C88A01EBB4A8A00D1DF71 /* curlbuild.h */,
-				6C9C88A11EBB4A8A00D1DF71 /* curlbuild.h.cmake */,
-				6C9C88A21EBB4A8A00D1DF71 /* curlbuild.h.in */,
 				6C9C88A31EBB4A8A00D1DF71 /* curlrules.h */,
 				6C9C88A41EBB4A8A00D1DF71 /* curlver.h */,
 				6C9C88A51EBB4A8A00D1DF71 /* easy.h */,
-				6C9C88A61EBB4A8A00D1DF71 /* Makefile */,
-				6C9C88A71EBB4A8A00D1DF71 /* Makefile.am */,
-				6C9C88A81EBB4A8A00D1DF71 /* Makefile.in */,
 				6C9C88A91EBB4A8A00D1DF71 /* mprintf.h */,
 				6C9C88AA1EBB4A8A00D1DF71 /* multi.h */,
-				6C9C88AB1EBB4A8A00D1DF71 /* stamp-h2 */,
 				6C9C88AC1EBB4A8A00D1DF71 /* stdcheaders.h */,
 				6C9C88AD1EBB4A8A00D1DF71 /* system.h */,
 				6C9C88AE1EBB4A8A00D1DF71 /* typecheck-gcc.h */,
 			);
 			path = curl;
+			sourceTree = "<group>";
+		};
+		6FB43CF227384F5FD2081C27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F99F352A26171ED3E6EAB9C7 /* Pods-JMCurlClient.debug.xcconfig */,
+				977DEFDCE058028DBEE52AA6 /* Pods-JMCurlClient.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C9C88951EBB4A2C00D1DF71 /* Build configuration list for PBXNativeTarget "JMCurlClient" */;
 			buildPhases = (
+				4ECF406F241691B52AA1DDC2 /* [CP] Check Pods Manifest.lock */,
 				6C9C887A1EBB4A2C00D1DF71 /* Sources */,
 				6C9C887B1EBB4A2C00D1DF71 /* Frameworks */,
 				6C9C887C1EBB4A2C00D1DF71 /* Resources */,
+				D722C77AECC117602C14ADC9 /* [CP] Embed Pods Frameworks */,
+				B59C984C3E36B47E2C714D70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,18 +215,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C9C88B11EBB4A8A00D1DF71 /* curlbuild.h.in in Resources */,
-				6C9C88B01EBB4A8A00D1DF71 /* curlbuild.h.cmake in Resources */,
 				6C9C88911EBB4A2C00D1DF71 /* LaunchScreen.storyboard in Resources */,
-				6C9C88B41EBB4A8A00D1DF71 /* Makefile.in in Resources */,
-				6C9C88B51EBB4A8A00D1DF71 /* stamp-h2 in Resources */,
-				6C9C88B31EBB4A8A00D1DF71 /* Makefile.am in Resources */,
 				6C9C888E1EBB4A2C00D1DF71 /* Assets.xcassets in Resources */,
 				6C9C888C1EBB4A2C00D1DF71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ECF406F241691B52AA1DDC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B59C984C3E36B47E2C714D70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JMCurlClient/Pods-JMCurlClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D722C77AECC117602C14ADC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JMCurlClient/Pods-JMCurlClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C9C887A1EBB4A2C00D1DF71 /* Sources */ = {
@@ -228,7 +280,6 @@
 				6C9C88BC1EBB4A9300D1DF71 /* JMCppCurlClient.cpp in Sources */,
 				6C9C88BB1EBB4A9300D1DF71 /* JMCurlClient.mm in Sources */,
 				6C9C88861EBB4A2C00D1DF71 /* AppDelegate.m in Sources */,
-				6C9C88B21EBB4A8A00D1DF71 /* Makefile in Sources */,
 				6C9C88831EBB4A2C00D1DF71 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +398,7 @@
 		};
 		6C9C88961EBB4A2C00D1DF71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99F352A26171ED3E6EAB9C7 /* Pods-JMCurlClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 942EJG526J;
@@ -364,6 +416,7 @@
 		};
 		6C9C88971EBB4A2C00D1DF71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977DEFDCE058028DBEE52AA6 /* Pods-JMCurlClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 942EJG526J;
@@ -398,6 +451,7 @@
 				6C9C88971EBB4A2C00D1DF71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
