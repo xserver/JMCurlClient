@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MetCurlClient'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'A short description of MetCurlClient.'
   s.description      = 'Nothing'
   s.homepage         = 'https://github.com/xserver/MetCurlClient'
