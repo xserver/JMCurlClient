@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MetCurlClient'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A short description of MetCurlClient.'
   s.description      = 'Nothing'
   s.homepage         = 'https://github.com/xserver/MetCurlClient'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/xserver/JMCurlClient.git"}
   s.source_files = 'MetCurlClient/Classes/*'
-
+  s.libraries = "curl", "z"
   
   # s.resource_bundles = {
   #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
