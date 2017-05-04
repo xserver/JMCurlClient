@@ -10,9 +10,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/xserver/JMCurlClient.git"}
   s.source_files = 'JMCurlClient/Classes/*'
-  s.libraries = "curl", "z"
   s.public_header_files = 'JMCurlClient/Classes/curl/*.h'
-  
+  s.libraries = 'z'
 
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

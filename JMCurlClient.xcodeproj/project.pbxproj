@@ -17,6 +17,7 @@
 		6C9C88B61EBB4A8A00D1DF71 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9C88AF1EBB4A8A00D1DF71 /* libcurl.a */; };
 		6C9C88BB1EBB4A9300D1DF71 /* JMCurlClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C88B81EBB4A9300D1DF71 /* JMCurlClient.mm */; };
 		6C9C88BC1EBB4A9300D1DF71 /* JMCppCurlClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C88BA1EBB4A9300D1DF71 /* JMCppCurlClient.cpp */; };
+		6C9C88C01EBB528700D1DF71 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9C88BF1EBB528700D1DF71 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		6C9C88B81EBB4A9300D1DF71 /* JMCurlClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JMCurlClient.mm; sourceTree = "<group>"; };
 		6C9C88B91EBB4A9300D1DF71 /* JMCppCurlClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JMCppCurlClient.hpp; sourceTree = "<group>"; };
 		6C9C88BA1EBB4A9300D1DF71 /* JMCppCurlClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JMCppCurlClient.cpp; sourceTree = "<group>"; };
+		6C9C88BF1EBB528700D1DF71 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		977DEFDCE058028DBEE52AA6 /* Pods-JMCurlClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMCurlClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMCurlClient/Pods-JMCurlClient.release.xcconfig"; sourceTree = "<group>"; };
 		F99F352A26171ED3E6EAB9C7 /* Pods-JMCurlClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMCurlClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMCurlClient/Pods-JMCurlClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9C88C01EBB528700D1DF71 /* libz.tbd in Frameworks */,
 				6C9C88B61EBB4A8A00D1DF71 /* libcurl.a in Frameworks */,
 				59BE6AC0DB19E3CD28B240FB /* libPods-JMCurlClient.a in Frameworks */,
 			);
@@ -66,6 +69,7 @@
 		44EFE3490B68F224D63342F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C9C88BF1EBB528700D1DF71 /* libz.tbd */,
 				03830B0EE898E68C63BE6EE4 /* libPods-JMCurlClient.a */,
 			);
 			name = Frameworks;
