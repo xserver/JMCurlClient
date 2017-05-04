@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 
   s.source       = { :git => "https://github.com/xserver/JMCurlClient.git"}
-  s.source_files = 'MetCurlClient/MetCurlClient/Classes/*'
+  s.source_files = 'JMCurlClient/Classes/*'
   s.libraries = "curl", "z"
   s.public_header_files = 'Pod/Classes/curl/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
